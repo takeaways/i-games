@@ -98,6 +98,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _css
 
 /***/ }),
 
+/***/ "./node_modules/css-loader/dist/cjs.js!./src/css/components/ball.css":
+/*!***************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./src/css/components/ball.css ***!
+  \***************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);\n// Imports\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});\n// Module\n___CSS_LOADER_EXPORT___.push([module.i, \"#ball{\\n  height: 100%;\\n  width: 100%;\\n  background-color: rebeccapurple;\\n}\\n#ball canvas{\\n  height: 100%;\\n  width: 100%;\\n}\", \"\"]);\n// Exports\n/* harmony default export */ __webpack_exports__[\"default\"] = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack:///./src/css/components/ball.css?./node_modules/css-loader/dist/cjs.js");
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/dist/cjs.js!./src/css/components/rotate.css":
 /*!*****************************************************************************!*\
   !*** ./node_modules/css-loader/dist/cjs.js!./src/css/components/rotate.css ***!
@@ -118,7 +130,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _nod
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_cjs_js_node_modules_normalize_css_normalize_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! -!../../node_modules/css-loader/dist/cjs.js!../../node_modules/normalize.css/normalize.css */ \"./node_modules/css-loader/dist/cjs.js!./node_modules/normalize.css/normalize.css\");\n/* harmony import */ var _node_modules_css_loader_dist_cjs_js_components_rotate_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! -!../../node_modules/css-loader/dist/cjs.js!./components/rotate.css */ \"./node_modules/css-loader/dist/cjs.js!./src/css/components/rotate.css\");\n// Imports\n\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});\n___CSS_LOADER_EXPORT___.i(_node_modules_css_loader_dist_cjs_js_node_modules_normalize_css_normalize_css__WEBPACK_IMPORTED_MODULE_1__[\"default\"]);\n___CSS_LOADER_EXPORT___.i(_node_modules_css_loader_dist_cjs_js_components_rotate_css__WEBPACK_IMPORTED_MODULE_2__[\"default\"]);\n// Module\n___CSS_LOADER_EXPORT___.push([module.i, \"*{\\n  margin:0;\\n  padding:0;\\n  user-select: none;\\n  box-sizing: border-box;\\n  outline:none;\\n}\\n\\nhtml,\\nbody{\\n  height: 100%;\\n  background-color: aquamarine;\\n};\\n\\n\\n\", \"\"]);\n// Exports\n/* harmony default export */ __webpack_exports__[\"default\"] = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack:///./src/css/global.css?./node_modules/css-loader/dist/cjs.js");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_cjs_js_node_modules_normalize_css_normalize_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! -!../../node_modules/css-loader/dist/cjs.js!../../node_modules/normalize.css/normalize.css */ \"./node_modules/css-loader/dist/cjs.js!./node_modules/normalize.css/normalize.css\");\n/* harmony import */ var _node_modules_css_loader_dist_cjs_js_components_rotate_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! -!../../node_modules/css-loader/dist/cjs.js!./components/rotate.css */ \"./node_modules/css-loader/dist/cjs.js!./src/css/components/rotate.css\");\n/* harmony import */ var _node_modules_css_loader_dist_cjs_js_components_ball_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! -!../../node_modules/css-loader/dist/cjs.js!./components/ball.css */ \"./node_modules/css-loader/dist/cjs.js!./src/css/components/ball.css\");\n// Imports\n\n\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});\n___CSS_LOADER_EXPORT___.i(_node_modules_css_loader_dist_cjs_js_node_modules_normalize_css_normalize_css__WEBPACK_IMPORTED_MODULE_1__[\"default\"]);\n___CSS_LOADER_EXPORT___.i(_node_modules_css_loader_dist_cjs_js_components_rotate_css__WEBPACK_IMPORTED_MODULE_2__[\"default\"]);\n___CSS_LOADER_EXPORT___.i(_node_modules_css_loader_dist_cjs_js_components_ball_css__WEBPACK_IMPORTED_MODULE_3__[\"default\"]);\n// Module\n___CSS_LOADER_EXPORT___.push([module.i, \"*{\\n  margin:0;\\n  padding:0;\\n  user-select: none;\\n  box-sizing: border-box;\\n  outline:none;\\n}\\n\\nhtml,\\nbody{\\n  height: 100%;\\n  background-color: aquamarine;\\n};\\n\\n\\n\", \"\"]);\n// Exports\n/* harmony default export */ __webpack_exports__[\"default\"] = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack:///./src/css/global.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -158,6 +170,42 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _nod
 
 /***/ }),
 
+/***/ "./src/functions/ball/ball.ts":
+/*!************************************!*\
+  !*** ./src/functions/ball/ball.ts ***!
+  \************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\nvar Ball = /** @class */ (function () {\n    function Ball(stageWith, stageHeight, radius, speed) {\n        if (stageWith === void 0) { stageWith = 0; }\n        if (stageHeight === void 0) { stageHeight = 0; }\n        if (radius === void 0) { radius = 0; }\n        if (speed === void 0) { speed = 0; }\n        this.stageWith = stageWith;\n        this.stageHeight = stageHeight;\n        this.radius = radius;\n        this.speed = speed;\n        this.vx = 0;\n        this.vy = 0;\n        this.x = 0;\n        this.y = 0;\n        this.vx = this.speed;\n        this.vy = this.speed;\n        var diameter = this.radius * 2;\n        this.x = diameter + (Math.random() * this.stageWith - diameter);\n        this.y = diameter + (Math.random() * this.stageHeight - diameter);\n    }\n    Ball.prototype.draw = function (ctx, stageWidth, stageHeight, block) {\n        this.x += this.vx;\n        this.y += this.vy;\n        this.bounceWindow(stageWidth, stageHeight);\n        this.bounceBlock(block);\n        ctx.fillStyle = \"#fdd700\";\n        ctx.beginPath();\n        ctx.arc(this.x, this.y, this.radius, 0, 2 * Math.PI);\n        ctx.fill();\n    };\n    Ball.prototype.bounceWindow = function (stageWidth, stageHeight) {\n        var minX = this.radius;\n        var maxX = stageWidth - this.radius;\n        var minY = this.radius;\n        var maxY = stageHeight - this.radius;\n        if (this.x <= minX || this.x >= maxX) {\n            this.vx *= -1;\n            this.x += this.vx;\n        }\n        else if (this.y <= minY || this.y >= maxY) {\n            this.vy *= -1;\n            this.y += this.vy;\n        }\n    };\n    Ball.prototype.bounceBlock = function (block) {\n        var minX = block.x - this.radius;\n        var maxX = block.maxX + this.radius;\n        var minY = block.y - this.radius;\n        var maxY = block.maxY + this.radius;\n        if (this.x > minX && this.x < maxX && this.y > minY && this.y < maxY) {\n            var x1 = Math.abs(minX - this.x);\n            var x2 = Math.abs(this.x - maxX);\n            var y1 = Math.abs(minY - this.y);\n            var y2 = Math.abs(this.y - maxY);\n            var min1 = Math.min(x1, x2);\n            var min2 = Math.min(y1, y2);\n            var min = Math.min(min1, min2);\n            if (min === min1) {\n                this.vx *= -1;\n                this.x += this.vx;\n            }\n            else if (min === min2) {\n                this.vy *= -1;\n                this.y += this.vy;\n            }\n        }\n    };\n    return Ball;\n}());\n/* harmony default export */ __webpack_exports__[\"default\"] = (Ball);\n\n\n//# sourceURL=webpack:///./src/functions/ball/ball.ts?");
+
+/***/ }),
+
+/***/ "./src/functions/ball/block.ts":
+/*!*************************************!*\
+  !*** ./src/functions/ball/block.ts ***!
+  \*************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\nvar Block = /** @class */ (function () {\n    function Block(width, height, x, y) {\n        this.width = 0;\n        this.height = 0;\n        this.x = 0;\n        this.y = 0;\n        this.maxX = 0;\n        this.maxY = 0;\n        this.width = width;\n        this.height = height;\n        this.x = x;\n        this.y = y;\n        this.maxX = width + x;\n        this.maxY = height + y;\n    }\n    Block.prototype.draw = function (ctx) {\n        var xGap = 80;\n        var yGap = 60;\n        ctx.fillStyle = \"#dd384e\";\n        ctx.beginPath();\n        ctx.rect(this.x, this.y, this.width, this.height);\n        ctx.fill();\n        ctx.fillStyle = \"#190f3a\";\n        ctx.beginPath();\n        ctx.moveTo(this.maxX, this.maxY);\n        ctx.lineTo(this.maxX - xGap, this.maxY + yGap);\n        ctx.lineTo(this.x - xGap, this.maxY + yGap);\n        ctx.lineTo(this.x, this.maxY);\n        ctx.fill();\n        ctx.fillStyle = \"#9d0919\";\n        ctx.beginPath();\n        ctx.moveTo(this.x, this.y);\n        ctx.lineTo(this.x, this.maxY);\n        ctx.lineTo(this.x - xGap, this.maxY + yGap);\n        ctx.lineTo(this.x - xGap, this.maxY + yGap - this.height);\n        ctx.fill();\n    };\n    return Block;\n}());\n/* harmony default export */ __webpack_exports__[\"default\"] = (Block);\n\n\n//# sourceURL=webpack:///./src/functions/ball/block.ts?");
+
+/***/ }),
+
+/***/ "./src/functions/ball/index.ts":
+/*!*************************************!*\
+  !*** ./src/functions/ball/index.ts ***!
+  \*************************************/
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var src_functions_ball_ball__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! src/functions/ball/ball */ \"./src/functions/ball/ball.ts\");\n/* harmony import */ var src_functions_ball_block__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! src/functions/ball/block */ \"./src/functions/ball/block.ts\");\n\n\nvar Game = /** @class */ (function () {\n    function Game() {\n        this.stageWidth = 0;\n        this.stageHeight = 0;\n        this.container = document.querySelector(\"#ball\");\n        this.canvas = document.createElement(\"canvas\");\n        this.ctx = this.canvas.getContext(\"2d\");\n        this.container.append(this.canvas);\n        window.addEventListener(\"resize\", this.resize.bind(this), false);\n        this.resize();\n        this.ball = new src_functions_ball_ball__WEBPACK_IMPORTED_MODULE_0__[\"default\"](this.stageWidth, this.stageHeight, 60, 16);\n        this.block = new src_functions_ball_block__WEBPACK_IMPORTED_MODULE_1__[\"default\"](700, 30, 300, 450);\n        requestAnimationFrame(this.animate.bind(this));\n    }\n    Game.prototype.resize = function () {\n        this.stageWidth = this.container.clientWidth;\n        this.stageHeight = this.container.clientHeight;\n        this.canvas.width = this.stageWidth * 2;\n        this.canvas.height = this.stageHeight * 2;\n        this.ctx.scale(2, 2);\n    };\n    Game.prototype.animate = function () {\n        requestAnimationFrame(this.animate.bind(this));\n        this.ctx.clearRect(0, 0, this.stageWidth, this.stageHeight);\n        this.block.draw(this.ctx);\n        this.ball.draw(this.ctx, this.stageWidth, this.stageHeight, this.block);\n    };\n    return Game;\n}());\nnew Game();\n\n\n//# sourceURL=webpack:///./src/functions/ball/index.ts?");
+
+/***/ }),
+
 /***/ "./src/functions/rotate.ts":
 /*!*********************************!*\
   !*** ./src/functions/rotate.ts ***!
@@ -178,7 +226,7 @@ eval("\nvar rotate = document.querySelector(\"#rotate\");\nvar rotateDeg = docum
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var src_css_global_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! src/css/global.css */ \"./src/css/global.css\");\n/* harmony import */ var src_functions_rotate__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! src/functions/rotate */ \"./src/functions/rotate.ts\");\n/* harmony import */ var src_functions_rotate__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(src_functions_rotate__WEBPACK_IMPORTED_MODULE_1__);\n\n\n\n\n//# sourceURL=webpack:///./src/index.ts?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var src_css_global_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! src/css/global.css */ \"./src/css/global.css\");\n/* harmony import */ var src_functions_rotate__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! src/functions/rotate */ \"./src/functions/rotate.ts\");\n/* harmony import */ var src_functions_rotate__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(src_functions_rotate__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var src_functions_ball__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! src/functions/ball */ \"./src/functions/ball/index.ts\");\n\n\n\n\n\n//# sourceURL=webpack:///./src/index.ts?");
 
 /***/ })
 
