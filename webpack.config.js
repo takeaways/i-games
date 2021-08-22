@@ -7,7 +7,7 @@ const TsconfigPathsPlugin = require('tsconfig-paths-webpack-plugin');
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const OptimizeCSSAssetsPlugin = require("optimize-css-assets-webpack-plugin");
 const TerserPlugin = require("terser-webpack-plugin")
-
+const CopyPlugin = require('copy-webpack-plugin');
 
 const mode = process.env.NODE_ENV === "production" ? "production" : "development" 
 
@@ -32,24 +32,13 @@ module.exports = {
         use:[MiniCssExtractPlugin.loader,'css-loader']
       },
       {
-        test:/\.(png|jpeg)/i,
-        loader:'file-loader',
+        test: /\.(png|jpg|svg|gif)$/,
+        loader: "file-loader",
         options: {
-          publicPath: './dist/',
-          name: '[name].[ext]?[hash]',
+          name: "[name].[ext]?[hash]",
+          // publicPath:"images"
         }
       },
-      {
-        test:/\.(png|jpeg)/i,
-        use: {
-          loader: 'url-loader',
-          options: {
-            name: '[name].[ext]?[hash]',
-            publicPath: './dist/',
-            limit: 10000 // 10kb
-          }
-        }
-      }
     ]
   },
   resolve:{
@@ -57,12 +46,20 @@ module.exports = {
     plugins: [new TsconfigPathsPlugin({ configFile: "tsconfig.json" })]
   },
   plugins:[
+    new webpack.BannerPlugin({
+      banner: `빌드 날짜: ${new Date().toLocaleString()}`
+    }),
     new webpack.ProgressPlugin(),
     new CleanWebpackPlugin(),
     new MiniCssExtractPlugin(),
     new HtmlWebpackPlugin({
       template:'./src/index.html',
       minify: true
+    }),
+    new CopyPlugin({
+      patterns:[
+        {from:"src/images", to:"image"}
+      ]
     })
   ],
   optimization: {

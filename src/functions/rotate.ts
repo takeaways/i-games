@@ -4,6 +4,9 @@ const resetButton = rotate.querySelector(".reset")! as HTMLButtonElement;
 const rotateButton = rotate.querySelector(".rotate")! as HTMLButtonElement;
 const arrow = rotate.querySelector(".fa-arrow-up")! as HTMLElement;
 
+import img from "src/images/map.png";
+rotate.style.backgroundImage = `url(${img})`;
+
 let deg = 0;
 let interval: NodeJS.Timer;
 

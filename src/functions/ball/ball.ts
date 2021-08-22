@@ -25,7 +25,7 @@ export default class Ball {
     stageWidth: number,
     stageHeight: number,
     block: Block
-  ) {
+  ): void {
     this.x += this.vx;
     this.y += this.vy;
 
@@ -38,7 +38,7 @@ export default class Ball {
     ctx.fill();
   }
 
-  bounceWindow(stageWidth: number, stageHeight: number) {
+  bounceWindow(stageWidth: number, stageHeight: number): void {
     const minX = this.radius;
     const maxX = stageWidth - this.radius;
     const minY = this.radius;

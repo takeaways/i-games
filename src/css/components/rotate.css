@@ -8,10 +8,10 @@
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  background-image: url('../../images/map.png');
   background-repeat : no-repeat;
   background-size : cover;
 }
+/* background-image: url('../../images/map.png'); */
 
 #rotate .rotate-controls{
   height: 40px;
@@ -53,7 +53,7 @@
 #rotate .rotate-arrow{
   font-size: 10rem;
   height: 100%;
-  color:white;
+  color:royalblue;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -61,6 +61,7 @@
 }
 
 #rotate .fa-arrow-up{
+
   transition: transform 3000ms cubic-bezier(0.675, 0.210, 0.740, 1.075); /* custom */
   transition-timing-function: cubic-bezier(0.675, 0.210, 0.740, 1.075); /* custom */
 }
