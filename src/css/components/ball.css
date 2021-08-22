@@ -1,0 +1,9 @@
+#ball{
+  height: 100%;
+  width: 100%;
+  background-color: rebeccapurple;
+}
+#ball canvas{
+  height: 100%;
+  width: 100%;
+}
